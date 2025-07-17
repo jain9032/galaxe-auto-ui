@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 20px;
+}
+.wallet-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.wallet-icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.greeting-box {
+  background-color: #e0f7fa;
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  max-width: 400px;
+}
