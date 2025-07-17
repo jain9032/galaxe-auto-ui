@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Galaxe Automation</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galxe Auto UI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-  <div class="wallet-bar">
-    <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" class="wallet-icon" title="Ethereum: 0.00 ETH"/>
-    <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png" class="wallet-icon" title="BNB Chain: 0.00 BNB"/>
-    <img src="https://cryptologos.cc/logos/solana-sol-logo.png" class="wallet-icon" title="Solana: 0.00 SOL"/>
-  </div>
-
-  <div class="greeting-box" id="greeting">
-    👋 Welcome back! Today’s Galxe time-saving task: Visit 1 campaign, 2 mins max.
-  </div>
-
-  <script src="walletStatus.js"></script>
+    <header>
+        <h1>Galxe Auto Task Hub</h1>
+        <div id="wallet-bar"></div>
+    </header>
+    <main>
+        <section id="bot-greeting"></section>
+        <section id="task-summary">
+            <p>Tasks Completed: <span id="completed-count">0</span></p>
+            <p>Pending Tasks: <span id="pending-count">0</span></p>
+            <p>Estimated Earnings Today: <span id="earnings-count">$0.00</span></p>
+        </section>
+        <section id="tasks-container"></section>
+    </main>
 </body>
 </html>
